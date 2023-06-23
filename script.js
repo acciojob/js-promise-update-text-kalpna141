@@ -13,3 +13,6 @@ function delayedHello() {
     }, 1000);
   });
 }
+delayedHello().then((text) => {
+  document.getElementById("output").innerText = text;
+});
